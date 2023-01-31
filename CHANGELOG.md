@@ -1,3 +1,13 @@
+2.7.0, 2023-02-03:
+- [embedded] Added possibility to update order status on each payment attempt.
+- [embedded] Improve order and payment processing.
+- Minor code fixes
+
+2.6.5, 2023-01-23:
+- Bug fix: Fix payment in iframe mode when JavaScript minification is enabled in Magento.
+- Update list of supported payment means.
+- Update list of supported currencies.
+
 2.6.4, 2022-11-24:
 - [embedded] Bug fix: Fix error related to invalid email format when customer checkout as guest.
 - Minor code fixes.

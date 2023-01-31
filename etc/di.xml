@@ -37,4 +37,8 @@
     <type name="Magento\Framework\Session\SessionStartChecker">
         <plugin name="micuentaweb_session_checker" type="Lyranetwork\Micuentaweb\Controller\Plugin\SessionChecker" />
     </type>
+
+    <type name="Magento\Framework\View\Asset\Minification">
+        <plugin name="micuentaweb_exclude_js" type="Lyranetwork\Micuentaweb\Controller\Plugin\JsExcluder" />
+    </type>
 </config>

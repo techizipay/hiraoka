@@ -200,7 +200,8 @@ class Api
         return array(
             'MAESTRO' => 'Maestro', 'MASTERCARD' => 'Mastercard', 'VISA' => 'Visa', 'VISA_ELECTRON' => 'Visa Electron',
             'VPAY' => 'V PAY', 'AMEX' => 'American Express', 'CENCOSUD' => 'Cencosud', 'DINERS' => 'Diners',
-            'MASTERCARD_DEBIT' => 'Mastercard Débito', 'OH' => 'OH !', 'RIPLEY' => 'Ripley', 'VISA_DEBIT' => 'Visa Débito'
+            'MASTERCARD_DEBIT' => 'Mastercard Débito', 'OH' => 'OH !', 'PAGOEFECTIVO' => 'PagoEfectivo',
+            'RIPLEY' => 'Ripley', 'VISA_DEBIT' => 'Visa Débito'
         );
     }
 

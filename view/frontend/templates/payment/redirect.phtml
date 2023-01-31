@@ -24,14 +24,10 @@
 </form>
 
 <script>
-    require([
-        'jquery'
-    ], function($) {
-        $(function() {
-            $('#micuentaweb_payment_form').submit(function() {
-                $('#micuentaweb_payment_form_btn').prop('disabled', true);
-            });
-            $('#micuentaweb_payment_form').submit();
+    document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("micuentaweb_payment_form").submit(function() {
+            document.getElementById("micuentaweb_payment_form_btn").prop('disabled', true);
         });
+        document.getElementById("micuentaweb_payment_form").submit();
     });
 </script>
